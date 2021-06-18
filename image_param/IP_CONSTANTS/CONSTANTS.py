@@ -80,3 +80,9 @@ class EVENT_TYPE:
 
 class PREDICATE:
     INTERSECT = 'intersects'
+
+class OUTPUT_FMT:
+    IMAGE = "image"
+    XML = "xml"
+    ARRAY = "array"
+    #TENSOR = "tensor" # Removed
